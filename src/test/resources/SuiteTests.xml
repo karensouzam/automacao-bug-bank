@@ -1,0 +1,11 @@
+<?xml version ="1.0"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite verbose="1" name="Suite tests">
+    <test name = "Suite tests">
+        <classes>
+            <class name = "tests.TransferenciaTest"/>
+            <class name = "tests.LoginTest"/>
+            <class name = "tests.RegistroTest"/>
+        </classes>
+    </test>
+</suite>
